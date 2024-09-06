@@ -18,7 +18,7 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 
 ## DATA SOURCE 📊
 - [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
-- [Fertilizer suggestion dataset](https://github.com/Gladiator07/Harvestify/blob/master/Data-processed/fertilizer.csv) (custom built dataset)
+- [Fertilizer suggestion dataset](https://github.com/Gladiator07/FarmerFirst/blob/master/Data-processed/fertilizer.csv) (custom built dataset)
 - [Disease detection dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset)
 
 ## Notebooks 📓
@@ -44,9 +44,9 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 
 ## DEPLOYMENT 🚀
 
-#### Deployment is done using [deploy](https://github.com/Gladiator07/Harvestify/tree/deploy) branch
+#### Deployment is done using [deploy](https://github.com/Gladiator07/FarmerFirst/tree/deploy) branch
 #### This website is deployed at [Heroku](https://www.heroku.com/)
-#### You can access it [here](https://harvestify.herokuapp.com/)
+#### You can access it [here](https://FarmerFirst.herokuapp.com/)
 #### Note: The website may take a minute to load sometimes, as the server may be in hibernate state
 
 ## How to use 💻
@@ -80,17 +80,17 @@ Note that, for now it only supports following crops
 
 ## How to run locally 🛠️
 - Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
-- Clone the complete project with `git clone https://github.com/Gladiator07/Harvestify.git` or you can just download the code and unzip it
+- Clone the complete project with `git clone https://github.com/Gladiator07/FarmerFirst.git` or you can just download the code and unzip it
 - **Note:** The master branch doesn't have the updated code used for deployment, to download the updated code used for deployment you can use the following command
   ```
-  ❯ git clone -b deploy https://github.com/Gladiator07/Harvestify.git 
+  ❯ git clone -b deploy https://github.com/Gladiator07/FarmerFirst.git 
   ```
 - `deploy` branch has only the code required for deploying the app (rest of the code that was used for training the models, data preparation can be accessed on `master` branch)
 - It is highly recommended to clone the deploy branch for running the project locally (the further steps apply only if you have the deploy branch cloned)
 - Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
   ```
-  conda create -n harvestify python=3.6.12
-  conda activate harvestify
+  conda create -n FarmerFirst python=3.6.12
+  conda activate FarmerFirst
   pip install -r requirements.txt
   ```
 - And finally run the project with
@@ -115,7 +115,7 @@ Note that, for now it only supports following crops
 
 
 ## Contribute 👨‍💻
-Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Gladiator07/FarmerFirst/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Usage ⚙️
 You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
@@ -133,7 +133,7 @@ This was my first big project so there are lot of things to improve upon
 This project is heavily inspired from **[this GitHub repository](https://github.com/7NNS7/Recommendation-System-for-Farming)** (especially the crop recommendation and fertilizer recommendation part). This project is an extended version of the above mentioned project. Please star the mentioned repo.
 
 ## License 📝
-This project is licensed under [GNU (GENERAL PUBLIC LICENSE)](https://github.com/Gladiator07/Harvestify/blob/master/LICENSE).
+This project is licensed under [GNU (GENERAL PUBLIC LICENSE)](https://github.com/Gladiator07/FarmerFirst/blob/master/LICENSE).
 
 ## Contact 📞
 
